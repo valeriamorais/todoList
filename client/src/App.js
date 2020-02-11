@@ -1,11 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
+import Tasks from './components/Tasks';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-
+    <div className="container-fluid">
+        <nav>
+            <div className="nav-wrapper center-align">
+                <a href="/" className="brand-logo">Tasks</a>
+            </div>
+        </nav>
+        <div className="row">
+            <Tasks />
+        </div>
     </div>
   );
 }
