@@ -24,7 +24,7 @@ export default class Tasks extends Component {
                 </div>
                 <div className="row">
                     { this.state.tasks.map((item) => (
-                        <SingleTask key={item.id} item={item} />
+                        <SingleTask item={item} />
                     ))}
                 </div>
             </div>

@@ -8,7 +8,7 @@ function App() {
     <div className="container-fluid">
         <nav>
             <div className="nav-wrapper center-align">
-                <a href="/" className="brand-logo">Tasks</a>
+                <a href="/" className="brand-logo">Projeto TodoList</a>
             </div>
         </nav>
         <div className="row">
